@@ -1,4 +1,11 @@
-h1 {
-    font-size:60px;
-    color:red;
+.navbar {
+    background-color: rgba(31, 39, 27, .9);
+    
+}
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size:30px;
+}
+.nav-item {
+    color:white;
 }
