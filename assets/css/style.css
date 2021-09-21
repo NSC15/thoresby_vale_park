@@ -1,3 +1,6 @@
+body {
+    background-color: #CEF7A0;
+}
 .navbar {
     background-color: rgba(31, 39, 27, .9);
     height:150px;
@@ -9,13 +12,13 @@
     }
 .nav-link {
     font-family:'Roboto Slab', serif;
+    color:#fff;
 }
 
 footer {
     height:150px;
     background-color: rgba(31, 39, 27, .9);
-    
-    
+    margin-top:100% auto;
 }
 .col {
     text-align:center; 
@@ -31,11 +34,14 @@ footer {
 } 
 .description img {
      overflow:hidden;
-     height:400px;
      width:400px;
+     height:300px;
      
  }
-    
+ .description h3 {
+    font-family:'Roboto Slab', serif;
+    font-weight: bold;
+ }
  
 
 
