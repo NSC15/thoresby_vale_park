@@ -20,29 +20,41 @@ footer {
     background-color: rgba(31, 39, 27, .9);
     margin-top:100% auto;
 }
-.col {
+footer .col {
     text-align:center; 
     font-size:30px;   
 }
-.row {
+footer .row {
     padding-top:65px;
     
 }
-.description {
+.main-grid {
     width:100%;
-    height:700px;
+    height:450px;
+    padding-top:5px;
 } 
-.description img {
+.main-grid img {
      overflow:hidden;
      width:400px;
      height:300px;
      
  }
- .description h3 {
+ .main-grid h3 {
     font-family:'Roboto Slab', serif;
     font-weight: bold;
+    text-align:center;
  }
- 
+ .welcome {
+     width:100%;
+     height:300px;
+     text-align:center;
+     font-family:'Roboto Slab', serif;
+     font-size:25px;
+     padding: 0px 50px 0px 50px;
+ }
+ .welcome h3 {
+     font-weight:bold;
+ }
 
 
 
