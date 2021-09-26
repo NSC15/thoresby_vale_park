@@ -18,7 +18,8 @@ body {
 
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 5vw;
+    padding-right: 150px;
 }
 
 #logo {
@@ -27,6 +28,7 @@ body {
 
 .nav-link {
     font-family: 'Roboto Slab', serif;
+    font-size: 1.5vw;
 }
 
 .nav-link:hover {
