@@ -1,80 +1,98 @@
 html {
-    max-width:100%;
+    max-width: 100%;
     overflow-x: hidden;
-    
+
 }
+
 body {
     background-color: #CEF7A0;
-    min-height:100vh;
-    
+    min-height: 100vh;
+
 }
+
 .navbar {
     background-color: rgba(31, 39, 27, .9);
-    height:100px;
-    
+    height: 100px;
+
 }
+
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
-    font-size:50px;
-    }
-#logo {
-    color:#9D8420;
+    font-size: 50px;
 }
+
+#logo {
+    color: #9D8420;
+}
+
 .nav-link {
-    font-family:'Roboto Slab', serif;
-    }
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
 
 #link {
-    color:yellow;
+    color: yellow;
 }
 
+.active {
+    text-decoration: underline;
+
+}
 
 .container-footer {
-    height:100px;
+    height: 100px;
     background-color: rgba(31, 39, 27, .9);
-    width:100%;
-    margin:0 auto;
-    padding:0;
-    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
 }
+
 .container-footer .col {
-    text-align: center; 
-    font-size:30px;
-    
-    }
-.container-footer .col i {
-    color:yellow;
+    text-align: center;
+    font-size: 30px;
+
 }
-.container-footer > .row {
-    height:100px;
+
+.container-footer .col i {
+    color: yellow;
+}
+
+.container-footer>.row {
+    height: 100px;
 }
 
 
 .main-grid {
-    width:100%;
-    padding-top:5px;
-    text-align:center;
-} 
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+}
+
 .main-grid img {
-     overflow:hidden;
-     width:450px;
-     height:350px;
-     
- }
- .main-grid h3 {
-    font-family:'Roboto Slab', serif;
+    overflow: hidden;
+    width: 450px;
+    height: 350px;
+
+}
+
+.main-grid h3 {
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    text-align:center;
- }
- .welcome {
-     width:100%;
-     text-align:center;
-     font-family:'Roboto Slab', serif;
-     font-size:20px;
-     
- }
- .welcome h3 {
-     font-weight:bold;
- }
+    text-align: center;
+}
 
+.welcome {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
 
+}
+
+.welcome h3 {
+    font-weight: bold;
+}
