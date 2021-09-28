@@ -8,6 +8,7 @@ body {
     background-color: #cff7a0fd;
     min-height: 100vh;
     font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
 
 }
 
@@ -124,7 +125,7 @@ body {
 
 /*activities.html CSS */
 .row-contain {
-    background-color: #fff;
+    background-color: rgb(182, 229, 186);
     border: 2px solid;
     margin-bottom: 20px;
 }
@@ -145,7 +146,7 @@ body {
 
 .activity-list {
     border: 2px solid;
-    background-color: #fff;
+    background-color: rgb(182, 229, 186);
     margin: 0px 15px 15px 15px;
     padding: 5px;
 }
@@ -201,14 +202,11 @@ ul>li {
     border: 2px solid;
 }
 
-.video {
-    padding: 0px;
-}
 
 .video-text {
-    margin-left: 12px;
-    padding: 20px 0px 0px 20px;
-    background-color: #fff;
+    padding-left: 20px;
+    margin-left: 5px;
+    background-color: rgb(182, 229, 186);
     border: 2px solid;
 
 }
@@ -221,4 +219,36 @@ ul>li {
 
 .developers a {
     color: black;
+}
+
+.row-robin-hood {
+    text-align: center;
+    background-color: rgb(182, 229, 186);
+    border: 2px solid;
+    margin: 20px 0px 20px 0px;
+}
+
+.robin-hood h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.row-majoroak {
+    width: 100%;
+}
+
+.oak-statue {
+    text-align: center;
+}
+
+.oak-statue h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.oak-statue img {
+    width: 30%;
+    height: 50%;
+
 }
