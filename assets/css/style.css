@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-    color: #9D8420;
+    color: #fad12e;
 }
 
 .nav-link {
@@ -79,6 +79,7 @@ body {
     overflow: hidden;
     width: 100%;
     height: auto;
+    border-radius: 5%;
 
 }
 
@@ -89,10 +90,9 @@ body {
 }
 
 .row-home {
-    background-color: #fff;
+    background-color: rgb(182, 229, 186);
     padding: 10px;
     margin: 0px 10px 10px 10px;
-    border-radius: 20%;
     border: 2px solid;
 }
 
