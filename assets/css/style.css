@@ -37,10 +37,6 @@ body {
     text-decoration: underline;
 }
 
-#link {
-    color: yellow;
-}
-
 .active {
     text-decoration: underline;
 
@@ -69,6 +65,10 @@ body {
     height: 100px;
 }
 
+.container-footer .row-fluid {
+    margin: 0px;
+    padding: 0px;
+}
 
 .main-grid {
     width: 100%;
