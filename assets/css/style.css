@@ -191,24 +191,29 @@ ul>li {
 }
 
 /*area.html CSS */
-.container-video {
-    margin: 0;
+.video {
+    width: 100%;
+    height: 50vh;
     padding: 0;
+    margin: 0;
 }
 
 #thoresby-vale {
     width: 100%;
     height: 100%;
-    border: 2px solid;
+
 }
 
 
 .video-text {
     padding-left: 20px;
-    margin-left: 5px;
     background-color: rgb(182, 229, 186);
     border: 2px solid;
 
+}
+
+.container-video .row {
+    margin: 20px 0px 20px 0px;
 }
 
 .container-video h3 {
@@ -228,27 +233,31 @@ ul>li {
     margin: 20px 0px 20px 0px;
 }
 
-.robin-hood h3 {
+.row-robin-hood h3 {
     text-decoration: underline;
     font-weight: bolder;
+    text-align: center;
 
 }
 
-.row-majoroak {
+.oak {
+    margin: 20px 0 20px 0;
+    background-color: rgb(182, 229, 186);
+    border: 2px solid;
+}
+
+.oak img {
     width: 100%;
+    height: 50vh;
+    margin-bottom: 20px;
 }
 
-.oak-statue {
+.oak p {
     text-align: center;
 }
 
-.oak-statue h3 {
+.oak h3 {
     text-decoration: underline;
     font-weight: bolder;
-}
-
-.oak-statue img {
-    width: 30%;
-    height: 50%;
-
+    text-align: center;
 }
