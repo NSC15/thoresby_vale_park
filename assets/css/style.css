@@ -5,7 +5,9 @@ html {
 }
 
 body {
-    background-color: #cff7a0fd;
+    background-image: url('../images/deb-barnes-JZ6EA8Ha3zI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     font-family: 'Roboto Slab', serif;
     font-size: 18pt;
@@ -81,6 +83,8 @@ body {
     width: 100%;
     height: auto;
     border-radius: 5%;
+    border: 5px solid #fff;
+
 
 }
 
@@ -88,13 +92,18 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
+    background-color: rgb(182, 229, 186);
+    padding: 20px 0px 20px 0px;
+    border: 5px solid #fff;
+
 }
 
 .row-home {
     background-color: rgb(182, 229, 186);
     padding: 10px;
     margin: 0px 10px 10px 10px;
-    border: 2px solid;
+    border: 5px solid;
 }
 
 .container-home {
@@ -126,7 +135,7 @@ body {
 /*activities.html CSS */
 .row-contain {
     background-color: rgb(182, 229, 186);
-    border: 2px solid;
+    border: 5px solid;
     margin-bottom: 20px;
 }
 
@@ -145,7 +154,7 @@ body {
 }
 
 .activity-list {
-    border: 2px solid;
+    border: 5px solid;
     background-color: rgb(182, 229, 186);
     margin: 0px 15px 15px 15px;
     padding: 5px;
@@ -206,9 +215,9 @@ ul>li {
 
 
 .video-text {
-    padding-left: 20px;
+    padding-top: 20px;
     background-color: rgb(182, 229, 186);
-    border: 2px solid;
+    border: 5px solid;
 
 }
 
@@ -229,7 +238,7 @@ ul>li {
 .row-robin-hood {
     text-align: center;
     background-color: rgb(182, 229, 186);
-    border: 2px solid;
+    border: 5px solid;
     margin: 20px 0px 20px 0px;
 }
 
@@ -243,7 +252,7 @@ ul>li {
 .oak {
     margin: 20px 0 20px 0;
     background-color: rgb(182, 229, 186);
-    border: 2px solid;
+    border: 5px solid;
 }
 
 .oak img {
@@ -269,14 +278,14 @@ ul>li {
 }
 
 .form-control {
-    border: 2px solid;
+    border: 5px solid;
 
 }
 
 .contact {
     margin: 10px;
     background-color: rgb(182, 229, 186);
-    border: 2px solid;
+    border: 5px solid;
 
 }
 
