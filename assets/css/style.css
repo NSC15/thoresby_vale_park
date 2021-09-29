@@ -261,3 +261,59 @@ ul>li {
     font-weight: bolder;
     text-align: center;
 }
+
+/*contact.html CSS */
+.mb-3 {
+    padding: 20px 20px 0 20px;
+    margin-right: 10px;
+}
+
+.form-control {
+    border: 2px solid;
+
+}
+
+.contact {
+    margin: 10px;
+    background-color: rgb(182, 229, 186);
+    border: 2px solid;
+
+}
+
+form label {
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+button {
+    padding: 0px;
+    margin: 10px 10px 30px 10px;
+    background-color: rgb(182, 229, 186);
+    border-radius: 10%;
+
+
+}
+
+.controls {
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(147, 150, 147);
+    border-radius: 10%;
+
+}
+
+.map {
+    width: 100%;
+    height: 50vh;
+    margin: 20px 20px 0px 0px;
+}
+
+.contact h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
