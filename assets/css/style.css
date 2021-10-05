@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: url('../images/deb-barnes-JZ6EA8Ha3zI-unsplash.jpg');
+    background-image: url('../images/bckground-forest.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -18,7 +18,7 @@ body {
 /*site navigation bar CSS*/
 .navbar {
     background-color: rgba(31, 39, 27, .9);
-    height: 100px;
+
 
 }
 
@@ -76,9 +76,13 @@ body {
 }
 
 /*index.html CSS*/
+.home-page {
+    background-image: none;
+}
+
 .main-grid {
     width: 100%;
-    padding-top: 5px;
+    padding-top: 1.5em;
     text-align: center;
 }
 
@@ -87,7 +91,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 5%;
-    border: 5px solid #fff;
+
 
 
 }
@@ -98,8 +102,8 @@ body {
     text-align: center;
     text-decoration: underline;
     background-color: rgb(182, 229, 186);
-    padding: 20px 0px 20px 0px;
-    border: 5px solid #fff;
+    padding: 1em 0em 1em 0px;
+
 
 }
 
@@ -107,7 +111,7 @@ body {
     background-color: rgb(182, 229, 186);
     padding: 10px;
     margin: 0px 10px 10px 10px;
-    border: 5px solid;
+
 }
 
 .container-home {
