@@ -24,12 +24,16 @@ body {
 
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
-    font-size: 5vw;
+    font-size: 4vw;
     padding-right: 150px;
 }
 
 #logo {
     color: #fad12e;
+}
+
+.nav-link-custom {
+    color: #fad12e !important;
 }
 
 .nav-link {
@@ -82,7 +86,7 @@ body {
 
 .main-grid {
     width: 100%;
-    padding-top: 1.5em;
+    padding-top: 0.5em;
     text-align: center;
 }
 
@@ -100,37 +104,37 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
-    text-decoration: underline;
+    padding: 0.5em;
     background-color: rgb(182, 229, 186);
-    padding: 1em 0em 1em 0px;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 
 
 }
 
 .row-home {
     background-color: rgb(182, 229, 186);
-    padding: 10px;
-    margin: 0px 10px 10px 10px;
-
+    padding: 1em;
 }
 
-.container-home {
-    margin: 0;
-    padding: 0;
-}
 
 .welcome {
     width: 100%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
+    font-size: 14pt;
 
 }
 
 .welcome h3 {
     font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+
 }
 
+/*media queries*/
 @media screen and (min-width:576px) {
     .main-grid img {
         overflow: hidden;
@@ -138,6 +142,14 @@ body {
         height: 350px;
 
     }
+}
+
+@media screen and (max-width:768px) {
+    .nav-link-custom {
+        font-size: 1em;
+        text-align: center;
+    }
+
 }
 
 /*activities.html CSS */
