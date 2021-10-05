@@ -11,7 +11,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     font-family: 'Roboto Slab', serif;
-    font-size: 18pt;
+    font-size: 14pt;
 
 }
 
@@ -204,7 +204,6 @@ ul>li {
 }
 
 .activities h3 {
-    text-decoration: underline;
     text-align: center;
 }
 
