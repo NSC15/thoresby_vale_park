@@ -1,3 +1,4 @@
+/*general CSS*/
 html {
     max-width: 100%;
     overflow-x: hidden;
@@ -14,6 +15,7 @@ body {
 
 }
 
+/*site navigation bar CSS*/
 .navbar {
     background-color: rgba(31, 39, 27, .9);
     height: 100px;
@@ -44,6 +46,7 @@ body {
 
 }
 
+/*site footer CSS*/
 .container-footer {
     height: 100px;
     background-color: rgba(31, 39, 27, .9);
@@ -72,6 +75,7 @@ body {
     padding: 0px;
 }
 
+/*index.html CSS*/
 .main-grid {
     width: 100%;
     padding-top: 5px;
