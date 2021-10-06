@@ -150,7 +150,14 @@ body {
         text-align: center;
     }
 
+    .row-contain {
+        margin: 0.5em;
+        text-align: center;
+    }
+
 }
+
+
 
 /*activities.html CSS */
 .row-contain {
@@ -207,9 +214,16 @@ ul>li {
     text-align: center;
 }
 
-#pod {
+.pod {
     width: 50%;
     height: auto;
+}
+
+@media screen and (max-width:768px) {
+    .pod {
+        width: 100%;
+        height: auto;
+    }
 }
 
 #edwinstowe-map {
