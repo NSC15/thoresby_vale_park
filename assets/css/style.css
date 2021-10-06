@@ -324,24 +324,18 @@ form label {
 
 }
 
-button {
-    padding: 0px;
-    margin: 10px 10px 30px 10px;
-    background-color: rgb(182, 229, 186);
-    border-radius: 10%;
-
-
+input.btn-custom {
+    background-color: #fad12e;
+    border: none;
+    /* font-size: large; */
+    padding: 0.6em;
+    border-radius: 0.3em;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
-.controls {
-    text-decoration: underline;
-    font-weight: bolder;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(147, 150, 147);
-    border-radius: 10%;
-
+input.btn-custom:hover {
+    background-color: rgb(122, 121, 121);
 }
 
 .map {
