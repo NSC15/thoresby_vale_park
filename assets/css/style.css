@@ -6,10 +6,11 @@ html {
 }
 
 body {
-    background-image: url('../images/bckground-forest.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    /*background-image: url('../images/background-forest.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 100vh;*/
+    background-color: #fff;
     font-family: 'Roboto Slab', serif;
     font-size: 14pt;
 
@@ -81,7 +82,7 @@ body {
 
 /*index.html CSS*/
 .home-page {
-    background-image: none;
+    background-color: #fff;
 }
 
 .main-grid {
