@@ -27,3 +27,35 @@ Source is Google Fonts.
 ### Imagery
 
 All images used are relative to the content of the page. I have used several royalty free image providers.
+
+### Layout
+
+I have used Bootstraps grid system to build the core layout of the site. The landing page consists of relative imagery and minimal text to maintain and clean and tidy look.
+Throughout the other pages of the site i have consistantly created boxes with a black border and green background to house the individual pages content.
+
+### WireFrames
+
+![](assets/images/home-page.png)
+![](assets/images/activities-page.png)
+![](assets/images/area-page.png)
+![](assets/images/contact.png)
+![](assets/images/mobile.png)
+
+## Future Improvements
+
+- Add JavaScript Carousel to home page for imagery of park to further reduce content on home page
+- Contact form completions sent to external address
+- Online booking service for glamping pod bookings
+
+## Technologies
+
+- HTML - providing the main structure and content of the site as well as providing key accessibility for all types of users.
+- CSS - styling of the site. Bootstraps CSS and own custom CSS used.
+- Bootstrap - mainly used for the responsive grid system and navigation.
+- Google Fonts - 'Roboto Slab' & 'Bebas Neue' fonts imported from Google Fonts.
+- Font Awesome - icons used relative to content. Used for footer social links.
+- Balsamiq Wireframes - software used to create initial styling plan of website.
+- Gitpod - IDE used to create site
+- Git - used for version control in development of website which would then be pushed to GitHub
+- GitHub - store of code from gitpod. responsible for deployment via GitHub Pages
+
