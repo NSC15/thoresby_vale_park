@@ -2,7 +2,6 @@
 html {
     max-width: 100%;
     overflow-x: hidden;
-
 }
 
 body {
@@ -11,20 +10,17 @@ body {
     background-size: contain;
     min-height: 100vh;*/
 
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 14pt;
-
 }
 
 /*site navigation bar CSS*/
 .navbar {
-    background-color: rgba(31, 39, 27, .9);
-
-
+    background-color: rgba(31, 39, 27, 0.9);
 }
 
 .navbar-brand {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 4vw;
     padding-right: 150px;
 }
@@ -38,7 +34,7 @@ body {
 }
 
 .nav-link {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 1.5vw;
 }
 
@@ -48,23 +44,20 @@ body {
 
 .active {
     text-decoration: underline;
-
 }
 
 /*site footer CSS*/
 .container-footer {
     height: 100px;
-    background-color: rgba(31, 39, 27, .9);
+    background-color: rgba(31, 39, 27, 0.9);
     width: 100%;
     margin: 0 auto;
     padding: 0;
-
 }
 
 .container-footer .col {
     text-align: center;
     font-size: 30px;
-
 }
 
 .container-footer .col i {
@@ -93,13 +86,10 @@ body {
     width: 100%;
     height: auto;
     border-radius: 5%;
-
-
-
 }
 
 .main-grid h3 {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bold;
     text-align: center;
     padding: 0.5em;
@@ -107,8 +97,6 @@ body {
     border-radius: 0.5em;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-
-
 }
 
 .row-home {
@@ -116,33 +104,29 @@ body {
     padding: 1em;
 }
 
-
 .welcome {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 14pt;
-
 }
 
 .welcome h3 {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
-
 }
 
 /*media queries*/
-@media screen and (min-width:576px) {
+@media screen and (min-width: 576px) {
     .main-grid img {
         overflow: hidden;
         width: 450px;
         height: 350px;
-
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .nav-link-custom {
         font-size: 1em;
         text-align: center;
@@ -152,10 +136,7 @@ body {
         margin: 0.5em;
         text-align: center;
     }
-
 }
-
-
 
 /*activities.html CSS */
 .row-contain {
@@ -169,13 +150,11 @@ body {
 }
 
 .routes>li {
-
     font-weight: normal;
 }
 
 .cycling-routes>li {
     font-weight: bold;
-
 }
 
 .activity-list {
@@ -186,22 +165,20 @@ body {
 }
 
 h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bold;
     text-decoration: underline;
 }
 
 ul>li {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 14pt;
-
 }
 
 .activity-list h3 {
     text-align: center;
     font-weight: bolder;
-    font-family: 'Roboto Slab', serif;
-
+    font-family: "Roboto Slab", serif;
 }
 
 .activity-list iframe {
@@ -217,7 +194,7 @@ ul>li {
     height: auto;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .pod {
         width: 100%;
         height: auto;
@@ -243,12 +220,10 @@ ul>li {
     padding: 0;
 }
 
-
 .video-text {
     padding-top: 20px;
     background-color: rgb(182, 229, 186);
     border: 5px solid;
-
 }
 
 .container-video .row {
@@ -258,7 +233,7 @@ ul>li {
 .container-video h3 {
     text-align: center;
     font-weight: bolder;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .developers a {
@@ -276,7 +251,6 @@ ul>li {
     text-decoration: underline;
     font-weight: bolder;
     text-align: center;
-
 }
 
 .oak {
@@ -291,11 +265,10 @@ ul>li {
     margin-bottom: 20px;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .oak img {
         height: 50vh;
     }
-
 }
 
 .oak p {
@@ -316,20 +289,17 @@ ul>li {
 
 .form-control {
     border: 5px solid;
-
 }
 
 .contact {
     margin: 1em;
     background-color: rgb(182, 229, 186);
     border: 5px solid;
-
 }
 
 form label {
     text-decoration: underline;
     font-weight: bolder;
-
 }
 
 input.btn-custom {

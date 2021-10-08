@@ -59,3 +59,17 @@ Throughout the other pages of the site i have consistantly created boxes with a 
 - Git - used for version control in development of website which would then be pushed to GitHub
 - GitHub - store of code from gitpod. responsible for deployment via GitHub Pages
 
+## Testing & Validation
+
+- HTML Validation (Source = W3C HTML Validator) = No errors
+- CSS Validation (Source = W3C Jigsaw CSS Validator) = No errors
+- Manual Testing done throughout project (Google Dev Tools - other devices once deployed)
+- Bugs - All bugs and fixes are identified within the project commits to demonstrate stages of development when creating the site.
+
+## Credits 
+
+- My CI mentor Reuben Ferrante - who gave constructive improvement ideas and defined the project scope initially.
+- Thoresby Vale Harworth Group - for supporting assets included in the site (image and video)
+- Pixabay - for their gallery of royalty free images.
+- Bootstrap - collection of responsive features
+- W3Schools - learning aid when creating websites.
