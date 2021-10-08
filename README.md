@@ -65,6 +65,7 @@ Throughout the other pages of the site i have consistantly created boxes with a 
 - CSS Validation (Source = W3C Jigsaw CSS Validator) = No errors
 - Manual Testing done throughout project (Google Dev Tools - other devices once deployed)
 - Bugs - All bugs and fixes are identified within the project commits to demonstrate stages of development when creating the site.
+- Changes - This is my first project, you will see within the code commits and the wireframes that as the project was being built different design ideas were implemented going away from the original design.
 
 ## Credits 
 
