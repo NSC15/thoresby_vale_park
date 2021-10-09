@@ -135,15 +135,15 @@ body {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 768px) {
     .oak img {
-        height: 50vh;
+        height: auto !important;
     }
 }
 
 @media screen and (max-width: 768px) {
     .pod {
-        width: 100%;
+        width: 100% !important;
         height: auto;
     }
 }
@@ -264,7 +264,7 @@ ul>li {
 
 .oak img {
     width: 100%;
-    height: auto;
+    height: 50vh;
     margin-bottom: 20px;
 }
 
