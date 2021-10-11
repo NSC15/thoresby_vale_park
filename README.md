@@ -67,6 +67,16 @@ Throughout the other pages of the site i have consistantly created boxes with a 
 - Bugs - All bugs and fixes are identified within the project commits to demonstrate stages of development when creating the site.
 - Changes - This is my first project, you will see within the code commits and the wireframes that as the project was being built different design ideas were implemented going away from the original design.
 
+## Manual Testing Bugs 
+
+- Nav Bar hamburger dropdown not functioning - bootstraps js script wasnt linked into the HTML documents by mistake, once added the responsive navigation was working correctly.
+- Home page images werent responsive as they werent stacking on top of each other at different breakpoints - removed initial sizings added to pictures as these were overiding the bootstrap grid system. Width 100% allowed images to just take column width sizing.
+- bugs in code - class names overiding bootstrap classes e.g grid system = container,row,col then my own classes added aswell however i had disregarded these classes and essentially created my own class completely. Removed all of these errors from code.
+- Google maps Iframes not allowing map movement - removed internal padding from map id. created a map class and used for both activities.html and contact.html google map iframes - both now working correctly and allow the user to move to different locations of the map.
+- Area.html bottom image sizes loading different on different devices sizes - added media query to adjust height sizing at 768px -below loads auto sizing as columns are stacked at this breakpoint then above 768 loads 50vh to match robin hood image while maintaining a good aspect ratio.
+
+Any other bugs can be found within the commit development stages.
+
 ## Credits 
 
 - My CI mentor Reuben Ferrante - who gave constructive improvement ideas and defined the project scope initially.
