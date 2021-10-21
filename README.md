@@ -2,7 +2,6 @@
 
 ## Live Link - https://nsc15.github.io/thoresby_vale_park/
 
-
 ![](assets/images/responsive.jpg)
 
 Thoresby Vale Country Park is my HTML/CSS static website project. This idea came from my own personal home town. The main purpose of this site is to advertise and inform site visitors of the park and the activities available, as well as providing an insight into the local surrounding area. The site is built to be responsive on all size devices. The contact form submit feedback currently loads the home page for the user.
@@ -13,12 +12,13 @@ As a first time user of this website, i want to quickly define the purpose of th
 I want to be able to navigate easily through the website with a simple functional Navigation to find extra information.
 I want to be able to contact the park regards any further queries in the future.
 I want a contact form so that i can ask any questions and/or book for a holiday.
+Details of surrounding attractions and services to the park also detailed for the user.
 
 ## Design
 
 ### Colour Scheme
 
-The site consists are four colours all nicely matched together using Coolors - these colours i feel were great at setting the theme of a nature based service, whilst also maintaining a sleek website to keep site visitors engaged.
+The site consists are four colours all nicely matched together using Coolors - these colours i feel were great at setting the theme of a countryside based service, whilst also maintaining a sleek website to keep site visitors engaged.
 
 ![](assets/images/colours.png)
 
@@ -40,16 +40,29 @@ I have used Bootstraps grid system to build the core layout of the site. The lan
 As seen here, each topic is seperated, in this case Cycling Routes, Hiking routes and the glamping pods. These are the main attractions to the park so this information is important.
 ### WireFrames
 
-![](assets/images/home-page.png)
-![](assets/images/activities-page.png)
-![](assets/images/area-page.png)
-![](assets/images/contact.png)
-![](assets/images/mobile.png)
+![](assets/images/home-page.webp)
+![](assets/images/contact-page.webp)
+![](assets/images/area-page.webp)
+![](assets/images/activities-page.webp)
+![](assets/images/mobile.webp)
+
+## Features
+
+- Responsive on all devices (down to 320px)
+- HTML and CSS (Custom and Bootstrap Grid system and Nav) JS hamburger nav function (Bootstrap)
+- Contact Form with required input (current send feedback is sending back to homepage)
+ - ![](assets/images/contact-form.webp)
+
+- Supporting video contact controlled by the site user
+
+ - ![](assets/images/area-list-video.png)
+- Responsive navigation for mobile users
+- Google map links to relatable locations
 
 ## Future Improvements
 
 - Add JavaScript Carousel to home page for imagery of park to further reduce content on home page
-- Contact form completions sent to external address
+- Contact form completions sent to external email address
 - Online booking service for glamping pod bookings
 
 ## Technologies
@@ -68,11 +81,13 @@ As seen here, each topic is seperated, in this case Cycling Routes, Hiking route
 
 - HTML Validation (Source = W3C HTML Validator) = No errors
 - CSS Validation (Source = W3C Jigsaw CSS Validator) = No errors
-- Manual Testing done throughout project (Google Dev Tools - other devices once deployed)
+- Dev Tools used throughout project build to add styling in real time before commit to main code.
+- Dev Tools also was a key tool in the process of making the site responsive down to 320px width.
 - Bugs - All bugs and fixes are identified within the project commits to demonstrate stages of development when creating the site.
 - Changes - This is my first project, you will see within the code commits and the wireframes that as the project was being built different design ideas were implemented going away from the original design.
+- Devices - Once site was deployed i spent time going through the site on different devices sizes to test everything was responsive the way i wanted it to be.
 
-## Manual Testing Bugs 
+### Bugs 
 
 - Nav Bar hamburger dropdown not functioning - bootstraps js script wasnt linked into the HTML documents by mistake, once added the responsive navigation was working correctly.
 - Home page images werent responsive as they werent stacking on top of each other at different breakpoints - removed initial sizings added to pictures as these were overiding the bootstrap grid system. Width 100% allowed images to just take column width sizing.
