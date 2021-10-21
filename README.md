@@ -103,5 +103,5 @@ Any other bugs can be found within the commit development stages.
 - My CI mentor Reuben Ferrante - who gave constructive improvement ideas and defined the project scope initially.
 - Thoresby Vale Harworth Group - for supporting assets included in the site (image and video)
 - Pixabay - for their gallery of royalty free images.
-- Bootstrap - collection of responsive features
+- Bootstrap - collection of responsive features (navigation, grid system and contact form code used)
 - W3Schools - learning aid when creating websites.
