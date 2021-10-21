@@ -39,6 +39,7 @@ I have used Bootstraps grid system to build the core layout of the site. The lan
 
 As seen here, each topic is seperated, in this case Cycling Routes, Hiking routes and the glamping pods. These are the main attractions to the park so this information is important.
 ### WireFrames
+ - These wireframes were very basic in design in the initial stages. When going through the development i was quickly adapting the look and feel in Dev Tools and i found the further i got into the project the more i was deviating away. I dont see this as a negative but maybe a point to think about in future project planning.
 
 ![](assets/images/home-page.webp)
 ![](assets/images/contact-page.webp)
@@ -53,7 +54,7 @@ As seen here, each topic is seperated, in this case Cycling Routes, Hiking route
 - Contact Form with required input (current send feedback is sending back to homepage)
  - ![](assets/images/contact-form.webp)
 
-- Supporting video contact controlled by the site user
+- Supporting video content controlled by the site user
 
  - ![](assets/images/area-list-video.png)
 - Responsive navigation for mobile users
