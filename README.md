@@ -1,5 +1,8 @@
 # Thoresby Vale Park
 
+## Live Link - https://nsc15.github.io/thoresby_vale_park/
+
+
 ![](assets/images/responsive.jpg)
 
 Thoresby Vale Country Park is my HTML/CSS static website project. This idea came from my own personal home town. The main purpose of this site is to advertise and inform site visitors of the park and the activities available, as well as providing an insight into the local surrounding area. The site is built to be responsive on all size devices. The contact form submit feedback currently loads the home page for the user.
@@ -15,7 +18,7 @@ I want a contact form so that i can ask any questions and/or book for a holiday.
 
 ### Colour Scheme
 
-The site consists are four colours all nicely matched together using Coolors -
+The site consists are four colours all nicely matched together using Coolors - these colours i feel were great at setting the theme of a nature based service, whilst also maintaining a sleek website to keep site visitors engaged.
 
 ![](assets/images/colours.png)
 
@@ -26,13 +29,15 @@ Source is Google Fonts.
 
 ### Imagery
 
-All images used are relative to the content of the page. I have used several royalty free image providers.
+All images used are relative to the content of the page. I have used several royalty free image providers. Images were vital to the customer audience of my site as it provides extra information and also advertises further the things on offer at the park and the surrounding areas, which being the park is a tourist attraction will prove beneficial.
 
 ### Layout
 
-I have used Bootstraps grid system to build the core layout of the site. The landing page consists of relative imagery and minimal text to maintain and clean and tidy look.
-Throughout the other pages of the site i have consistantly created boxes with a black border and green background to house the individual pages content.
+I have used Bootstraps grid system to build the core layout of the site. The landing page consists of relative imagery and minimal text to refrain from overloading the site visitor. The main design of the website is each section is seperated by content housings (green background and black border). This is consistant throughout all webpages. The reasoning behind this was in the hope that the chance of missing information will decrease rapidly, as id feel a webpage overloaded with descriptions all bunched together encourages skim reading. See below screenshots of webpage to provide an insight into the webpages layout - 
 
+![](assets/images/webpage.webp)
+
+As seen here, each topic is seperated, in this case Cycling Routes, Hiking routes and the glamping pods. These are the main attractions to the park so this information is important.
 ### WireFrames
 
 ![](assets/images/home-page.png)
